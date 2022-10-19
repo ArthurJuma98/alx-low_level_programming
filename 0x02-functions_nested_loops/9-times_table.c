@@ -3,7 +3,7 @@
 /**
  * times_table - printS the 9 timeS table
  */
-void times_table(void)
+void time_table(void)
 {
 	int num, mult, prod;
 
