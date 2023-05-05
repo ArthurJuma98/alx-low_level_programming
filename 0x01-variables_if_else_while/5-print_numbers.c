@@ -1,16 +1,19 @@
 #include <stdio.h>
-/**
- * main - Entry point
- *
- * Return: Always 0 (success)
- */
 
+/**
+ * main - prints all base 10 digits
+ *
+ * Return: 0 if execution was successful
+ */
 int main(void)
 {
-	int a;
+	char digit;
 
-	for (a = 0; a < 10; a++)
-		putchar(a);
+	for (digit = '0'; digit <= '9'; digit++)
+	{
+		putchar(digit);
+	}
+
 	putchar('\n');
 	return (0);
 }
